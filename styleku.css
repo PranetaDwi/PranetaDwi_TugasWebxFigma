@@ -1,0 +1,184 @@
+body{
+    background-image: url(bg.jpg);
+}
+.navbar{
+    width: 100%;
+    --bs-navbar-color: transparent;
+}
+#inpra{
+    font-weight: bold;
+}
+h1{
+    size: 80px;
+    font-weight: bolder;
+}
+.containerheader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+    padding: 20px 80px 30px 80px;
+    justify-content: space-between;
+}
+.containerheader img{
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+}
+.containerheader h1{
+    font-size: 50px;
+}
+header{
+    margin-top: 20px;
+}
+header img{
+    width: 100%;
+    height: 200px;
+}
+.conheader{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#site-content {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+}
+#site-content img{
+    height: 300px;
+}
+.p-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.btn-primary{
+    --bs-btn-bg: #795F5F;
+    --bs-btn-border-color: #795F5F;
+    --bs-btn-hover-color: #795F5F;
+    --bs-btn-hover-bg:var(--bs-btn-bg);
+    --bs-btn-hover-border-color:var(--bs-btn-bg)
+}
+.subtitle{
+    background-color: #D09898;
+    
+}
+.row .bagi2{
+    display: flex;
+    flex-direction: row;
+}
+.gatau{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.sidebagi{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card-body{
+    background-color: #DFD0D0;
+}
+
+element.style{
+    height: 200px;
+}
+.col .card{
+    width: 230px;
+}
+.col-md-4 img{
+    height: 40px;
+    width: 200px;
+}
+.bg-body-tertiary {
+    --bs-bg-opacity: transparent;
+    background-color: transparent;
+}
+.btn-outline-success {
+    --bs-btn-color: rgb(42, 39, 39);
+    --bs-btn-border-color: rgb(42, 39, 39);
+    --bs-btn-hover-bg: #85918b;
+    --bs-btn-hover-border-color: #76807b;
+}
+#navbarSupportedContent{
+    padding-left: 530px;
+}
+@media screen and (max-width:414px){
+    body{
+        background-image: url(bgmobile.jpg);
+    }
+    #site-content{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 20px;
+    }
+    .sidebagi{
+        gap: 30px;
+    }
+    .col-md-4 img{
+        height: 200px;
+        width: 300px;
+
+    }
+    #tambahan{
+        width: 300px;
+        height: 600px;
+    }
+    #tambahan2{
+        margin-top: 170px;
+        width: 300px;
+        height: 600px;
+    }
+    footer{
+        margin-top: 200px;
+    }
+   
+    .card-body{
+        background-color: #EBE5E5;
+    }
+    .container-fluid{
+        display: flex;
+        flex-direction: column;
+    }
+    #navbarSupportedContent{
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+    } 
+    .navbar-nav{
+        flex-direction: row;
+        gap: 20px;
+    }
+    .col{
+        padding-inline-start: 50px;
+    }
+    .col .card{
+        width: 300px;
+    }
+    .col-md-4 img{
+        height: 40px;
+        width: 300px;
+        border-bottom-left-radius: 0;
+    }
+    .sidebagi{
+        padding-inline-start: 30px;
+    }
+    .containerheader{
+        padding-inline-start: 10px
+    }
+}
+
+
+
+
+
+
+
